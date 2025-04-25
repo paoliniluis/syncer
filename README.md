@@ -7,6 +7,8 @@ This script notifies a Metabase instance about potential schema changes for a sp
 1.  **Python 3**: Ensure you have Python 3 installed.
 2.  **Metabase API Key**: You need a Metabase API key with permissions to access the `/api/notify/db/:id` endpoint. This key should be provided via the `--api-key` argument or, ideally, set as an environment variable (though the current script requires it as an argument).
 
+NOTE: remember that for THIS SPECIFIC API KEY, you need to set it via an env var (https://www.metabase.com/docs/latest/configuring-metabase/environment-variables#mb_api_key)
+
 ## Usage
 
 To use the main.py script for notifying a Metabase instance about database schema changes, follow these steps:
